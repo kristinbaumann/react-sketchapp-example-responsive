@@ -1,0 +1,25 @@
+{
+  "name": "react-sketchapp-starter-kit",
+  "version": "0.2.0",
+  "description": "Initial setup for a react-sketchapp project",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kristinbaumann/react-sketchapp-starter-kit"
+  },
+  "main": "react-sketchapp-starter-kit.sketchplugin",
+  "manifest": "src/manifest.json",
+  "scripts": {
+    "build": "skpm-build",
+    "render": "skpm-build --watch --run"
+  },
+  "author": "Kristin Baumann <mail@kristin-baumann.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "skpm-builder": "^0.1.1"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-sketchapp": "^1.0.0-beta.5",
+    "react-test-renderer": "^16.0.0"
+  }
+}
