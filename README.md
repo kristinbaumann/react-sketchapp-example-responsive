@@ -1,14 +1,13 @@
-![react-sketchapp-starter-kit logo](https://github.com/kristinbaumann/react-sketchapp-starter-kit/blob/master/src/img/logo.png)
-
-<div align="center">Initial Setup for a <a href="https://github.com/airbnb/react-sketchapp">React Sketch.app</a> Project</div>
-
+# React Sketchapp Example with responsive layout (flexbox)
+Render components to different screens
 
 ## Usage
 Tested with Sketch v.47.1
+Built with <a href="https://github.com/kristinbaumann/react-sketchapp-starter-kit">React Sketchapp Starter Kit</a>
 
 * Clone this repository
     ```bash
-    git clone https://github.com/kristinbaumann/react-sketchapp-starter-kit project-name
+    git clone https://github.com/kristinbaumann/react-sketchapp-example-responsive project-name
     cd project-name
     rm -rf .git
 
@@ -26,4 +25,4 @@ Tested with Sketch v.47.1
 
 * View the result in Sketch: 
 
-![react-sketchapp-starter-kit result](https://github.com/kristinbaumann/react-sketchapp-starter-kit/blob/master/src/img/sketch.png)
+![react-sketchapp-example-responsive result](https://github.com/kristinbaumann/react-sketchapp-example-responsive/blob/master/src/img/screenshot.png)
