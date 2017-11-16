@@ -1,14 +1,6 @@
 import React from 'react';
 import { render, View, Text, StyleSheet } from 'react-sketchapp';
 
-const screenSizes = [
-    { name: 'iPhone 7', width: 375, height: 667 }, 
-    { name: 'Google Pixel 2', width: 411, height: 731 }, // 411 x 731 
-    { name: 'iPhone X', width: 375, height: 812 },
-    { name: 'iPad - Portrait', width: 768, height: 1024 }, 
-    { name: 'iPad Pro - Portrait', width: 1024, height: 1366 } 
-];
-
 const styles = StyleSheet.create({
     app: {
         flexDirection: 'row',
@@ -18,7 +10,8 @@ const styles = StyleSheet.create({
     },
     screenText: {
         marginBottom: 10, 
-        fontSize: 16
+        fontSize: 28,
+        fontFamily: 'Courier-Bold'
     },
     component: {
         padding: 30,
@@ -53,11 +46,19 @@ const styles = StyleSheet.create({
         flexGrow: 1,
         maxWidth: 400,
     }
-  });
+});
+
+const screenSizes = [
+    { name: 'iPhone 7', width: 375, height: 667 }, 
+    { name: 'Google Pixel 2', width: 411, height: 731 }, 
+    { name: 'iPhone X', width: 375, height: 812 },
+    { name: 'iPad - Portrait', width: 768, height: 1024 }, 
+    { name: 'iPad Pro - Portrait', width: 1024, height: 1366 } 
+];
 
 const Screen = ({ name, width, height, children }) => (
     <View style={styles.screen}>
-        <Text style={styles.screenText}>Device: {name} ({width}x{height})</Text>
+        <Text style={styles.screenText}>{name} ({width}x{height})</Text>
         <View style={{ height: height, width: width, backgroundColor: '#E2E1E2' }}>
             {children}
         </View>
