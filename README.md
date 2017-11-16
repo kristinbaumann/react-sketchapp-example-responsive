@@ -9,7 +9,7 @@ Built with <a href="https://github.com/kristinbaumann/react-sketchapp-starter-ki
 
 * Clone this repository
     ```bash
-    git clone https://github.com/kristinbaumann/react-sketchapp-example-responsive project-name
+    git clone git@github.com:kristinbaumann/react-sketchapp-example-responsive.git project-name
     cd project-name
     rm -rf .git
 
