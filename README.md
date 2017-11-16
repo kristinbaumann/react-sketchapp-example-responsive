@@ -1,13 +1,13 @@
 # React Sketchapp Example with responsive layout (flexbox)
-Render components to different screens
+Test components with different screen sizes in Sketch
 
 ![react-sketchapp-example-responsive result](https://github.com/kristinbaumann/react-sketchapp-example-responsive/blob/master/img/screenshot.png)
 
-## Usage
 Tested with Sketch v.47.1
 
 Built with <a href="https://github.com/kristinbaumann/react-sketchapp-starter-kit">React Sketchapp Starter Kit</a>.
 
+## Usage
 Idea inspired from https://airbnb.design/painting-with-code/.
 
 * Clone this repository
