@@ -5,7 +5,10 @@ Render components to different screens
 
 ## Usage
 Tested with Sketch v.47.1
-Built with <a href="https://github.com/kristinbaumann/react-sketchapp-starter-kit">React Sketchapp Starter Kit</a>
+
+Built with <a href="https://github.com/kristinbaumann/react-sketchapp-starter-kit">React Sketchapp Starter Kit</a>.
+
+Idea inspired from https://airbnb.design/painting-with-code/.
 
 * Clone this repository
     ```bash
