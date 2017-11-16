@@ -1,6 +1,8 @@
 # React Sketchapp Example with responsive layout (flexbox)
 Render components to different screens
 
+![react-sketchapp-example-responsive result](https://github.com/kristinbaumann/react-sketchapp-example-responsive/blob/master/img/screenshot.png)
+
 ## Usage
 Tested with Sketch v.47.1
 Built with <a href="https://github.com/kristinbaumann/react-sketchapp-starter-kit">React Sketchapp Starter Kit</a>
@@ -23,6 +25,4 @@ Built with <a href="https://github.com/kristinbaumann/react-sketchapp-starter-ki
     npm run render
     ```
 
-* View the result in Sketch: 
-
-![react-sketchapp-example-responsive result](https://github.com/kristinbaumann/react-sketchapp-example-responsive/blob/master/src/img/screenshot.png)
+* View the result in Sketch 
